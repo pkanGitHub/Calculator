@@ -1,0 +1,7 @@
+python3.10 -m venv venv
+source venv/bin/activate
+pip3.10 install Flask
+
+to start development server
+python3.10 server.py
+localhost:5000/"path"
