@@ -32,7 +32,6 @@ const BtnContainer = () => {
                 <Button label={'.'} />
                 <Button label={'DEL'} />
                 <Button label={'='} />
-
             </div>
         </div>
     )
