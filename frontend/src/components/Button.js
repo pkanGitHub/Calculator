@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
     return (
-        <div>
-            
-        </div>
+        <input 
+            type="button" 
+            value={props.label}
+        />
     )
 }
 export default Button
