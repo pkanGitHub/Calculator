@@ -1,13 +1,12 @@
 import React from 'react'
 import './App.css';
-import Container from './components/Container';
+import Calculator from './components/Calculator';
+import NumberProvider from './components/NumberProvider';
 
 const App = () => {
-  return (
-    <div className="App">
-      <Container />
-    </div>
-  );
-}
+  <NumberProvider>
+    <Calculator />
+  </NumberProvider>
+};
 
 export default App;
